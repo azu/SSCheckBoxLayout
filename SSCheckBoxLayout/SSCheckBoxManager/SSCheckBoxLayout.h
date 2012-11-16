@@ -6,6 +6,7 @@
 #import <Foundation/Foundation.h>
 
 @class SSCheckBoxLayoutView;
+@protocol SSCheckBoxLayoutProtocol;
 
 
 typedef NS_ENUM(NSUInteger, SSCheckBoxModeType){
@@ -19,10 +20,12 @@ typedef NS_ENUM(NSUInteger, SSCheckBoxModeType){
 // SSCheckBoxViewの配列
 @property(nonatomic, strong) NSMutableArray *checkboxViews;
 // ラジオボタンのように単一のチェックするモード
-@property(nonatomic) SSCheckBoxModeType checkBoxMode;// デフォルトは複数選択モード
+@property(nonatomic) SSCheckBoxModeType checkBoxMode;
+// デフォルトは複数選択モード
 @property(nonatomic) NSUInteger numberForLines;
 @property(nonatomic) UIEdgeInsets marginForCheckbox;
 @property(nonatomic, strong, readonly) NSIndexSet *checkedIndexSet;
+@property(nonatomic, strong) id <SSCheckBoxLayoutProtocol> delegate;
 
 
 // Viewの中にチェックボックスを作って入れる

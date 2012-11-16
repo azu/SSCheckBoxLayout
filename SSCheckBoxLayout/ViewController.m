@@ -19,11 +19,20 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     SSCheckBoxLayout *checkBoxLayout = [[SSCheckBoxLayout alloc] init];
+    checkBoxLayout.delegate = self;
     checkBoxLayout.numberForLines = 3;
     checkBoxLayout.checkBoxMode = SingleCheckBoxType;
     checkBoxLayout.marginForCheckbox = UIEdgeInsetsMake(10, 0, 10, 0);
-    NSArray *array = @[@"asdasa", @"bdsadsa", @"こんばんわ", @"<xss>", @"TOPIC", @"vasaaaaaaaaaaaaaadav", @"asdasa", @"bdsadsa", @"vasdav", @"vasdav"];
+    NSArray *array = @[@"asdasa", @"bdsadsa", @"こんばんわ",
+    @"<xss>", @"TOPIC", @"vasaaaaaaaaaaaaaadav",
+    @"asdasa", @"bdsadsa", @"vasdav",
+    @"vasdav"];
     [checkBoxLayout makeCheckBoxFromArray:array InView:self.checkboxesView];
+}
+
+- (void)checkboxDidUpdate:(NSIndexSet *)indexSet {
+    NSLog(@"indexSet = %@", indexSet);
+
 }
 
 - (void)didReceiveMemoryWarning {

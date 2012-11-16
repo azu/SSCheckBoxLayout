@@ -6,6 +6,8 @@
 #import "SSCheckBoxLayout.h"
 #import "SSCheckBoxView.h"
 #import "SSCheckBoxLayoutView.h"
+#import "ViewController.h"
+#import "SSCheckBoxLayoutProtocol.h"
 
 
 @interface SSCheckBoxLayout ()
@@ -24,6 +26,7 @@
 @synthesize numberForLines = _numberForLines;
 @synthesize marginForCheckbox = _marginForCheckbox;
 @synthesize checkBoxMode = _checkBoxMode;
+@synthesize delegate = _delegate;
 
 
 - (id)init {
@@ -96,13 +99,15 @@ height = size.height / (チェックボックスの総数 / 1列の個数)
     [self makeCheckBoxFromArray:array InView:view];
     return view;
 }
-
+// delegate
 - (void)handlePutCheck:(SSCheckBoxView *)checkBoxView {
     if (self.checkBoxMode == SingleCheckBoxType){
         [self clearAllCheckWithout:checkBoxView];
     }
 
-    NSLog(@"[self checkedIndexSet] = %@", [self checkedIndexSet]);
+    if ([self.delegate respondsToSelector:@selector(checkboxDidUpdate:)]){
+        [self.delegate checkboxDidUpdate:[self checkedIndexSet]];
+    }
 }
 
 - (void)clearAllCheckWithout:(SSCheckBoxView *)checkBoxView {

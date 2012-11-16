@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SSCheckBoxLayoutProtocol.h"
 
 @class SSCheckBoxLayoutView;
 
-@interface ViewController : UIViewController{}
+@interface ViewController : UIViewController <SSCheckBoxLayoutProtocol> {}
 
 @property (weak, nonatomic) IBOutlet SSCheckBoxLayoutView *checkboxesView;
 

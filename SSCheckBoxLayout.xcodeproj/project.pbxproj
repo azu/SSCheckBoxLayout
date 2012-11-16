@@ -118,6 +118,7 @@
 		17B5C9964BFF101249BC6C03 /* SSCheckBoxLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCheckBoxLayout.h; sourceTree = "<group>"; };
 		17B5C9AE04A7D969424E0643 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17B5C9F3A8BF84FF89B0289E /* cb_glossy_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_glossy_on.png; sourceTree = "<group>"; };
+		17B5C9F5D5D461F2A020AADA /* SSCheckBoxLayoutProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCheckBoxLayoutProtocol.h; sourceTree = "<group>"; };
 		17B5CA434C31FE821B6234A2 /* cb_mono_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_mono_off.png; sourceTree = "<group>"; };
 		17B5CB0DDDE958E9F7F5BBA2 /* cb_glossy_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_glossy_off.png; sourceTree = "<group>"; };
 		17B5CB465AA8EB49FEA1F265 /* UIHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHelpers.m; sourceTree = "<group>"; };
@@ -286,6 +287,7 @@
 				17B5C9964BFF101249BC6C03 /* SSCheckBoxLayout.h */,
 				17B5C2D68A0FF5112382A568 /* SSCheckBoxLayoutView.m */,
 				17B5C696579669A94D1B388D /* SSCheckBoxLayoutView.h */,
+				17B5C9F5D5D461F2A020AADA /* SSCheckBoxLayoutProtocol.h */,
 			);
 			path = SSCheckBoxManager;
 			sourceTree = "<group>";
