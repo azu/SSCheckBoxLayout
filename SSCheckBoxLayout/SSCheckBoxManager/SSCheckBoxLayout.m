@@ -8,6 +8,13 @@
 #import "SSCheckBoxLayoutView.h"
 
 
+@interface SSCheckBoxLayout ()
+
+@property(nonatomic, strong, readwrite) NSIndexSet *checkedIndexSet;
+
+
+@end
+
 @implementation SSCheckBoxLayout {
     NSUInteger _numberForLines;
     UIEdgeInsets _marginForCheckbox;
@@ -41,7 +48,6 @@ height = size.height / (チェックボックスの総数 / 1列の個数)
 - (void)makeCheckBoxFromArray:(NSArray *)array InView:(SSCheckBoxLayoutView *)view {
     // 一度データは捨てる
     [self.checkboxViews removeAllObjects];
-
     // それぞれmarginを追加した大きさを作る
     CGSize size = view.frame.size;
     CGFloat checkboxWidth = (size.width / self.numberForLines);
@@ -95,6 +101,8 @@ height = size.height / (チェックボックスの総数 / 1列の個数)
     if (self.checkBoxMode == SingleCheckBoxType){
         [self clearAllCheckWithout:checkBoxView];
     }
+
+    NSLog(@"[self checkedIndexSet] = %@", [self checkedIndexSet]);
 }
 
 - (void)clearAllCheckWithout:(SSCheckBoxView *)checkBoxView {
@@ -104,4 +112,19 @@ height = size.height / (チェックボックスの総数 / 1列の個数)
         }
     }
 }
+
+- (NSIndexSet *)checkedIndexSet {
+    NSMutableIndexSet *indexSet = [NSMutableIndexSet indexSet];
+    for (int i = 0 ;i < [self.checkboxViews count] ;i++){
+        SSCheckBoxView *checkBoxView = self.checkboxViews[i];
+        if (checkBoxView.checked){
+            [indexSet addIndex:i];
+        }
+    }
+    return indexSet;
+}
+
+
+
+
 @end

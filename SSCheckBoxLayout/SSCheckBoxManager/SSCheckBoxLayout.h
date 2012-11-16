@@ -18,12 +18,12 @@ typedef NS_ENUM(NSUInteger, SSCheckBoxModeType){
 
 // SSCheckBoxViewの配列
 @property(nonatomic, strong) NSMutableArray *checkboxViews;
-
 // ラジオボタンのように単一のチェックするモード
 @property(nonatomic) SSCheckBoxModeType checkBoxMode;// デフォルトは複数選択モード
-
 @property(nonatomic) NSUInteger numberForLines;
 @property(nonatomic) UIEdgeInsets marginForCheckbox;
+@property(nonatomic, strong, readonly) NSIndexSet *checkedIndexSet;
+
 
 // Viewの中にチェックボックスを作って入れる
 - (void)makeCheckBoxFromArray:(NSArray *)array InView:(SSCheckBoxLayoutView *)view;
