@@ -127,6 +127,7 @@
 		17B5CBFCB26F2F1F72FB517B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17B5CC215B1DAE3CCFF55580 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		17B5CC416DFA8CB4821D9465 /* SSCheckBoxLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSCheckBoxLayout-Prefix.pch"; sourceTree = "<group>"; };
+		17B5CC4BCF3F10B8F3A29D80 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
 		17B5CC6D82A8794F0DAF32BD /* SSCheckBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCheckBoxView.h; sourceTree = "<group>"; };
 		17B5CC75C0313715031F8E60 /* cb_dark_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_dark_on@2x.png"; sourceTree = "<group>"; };
 		17B5CCCD46F7E4A5214DA382 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -268,6 +269,7 @@
 				17B5CF9B01AC37CD36477154 /* SSCheckBoxLayout */,
 				17B5C253DDAC4AD293503350 /* SSCheckBoxLayoutTests */,
 				6BD7C65FF0B24B0992145DB5 /* Pods-SSCheckBoxLayoutTests.xcconfig */,
+				17B5CC4BCF3F10B8F3A29D80 /* readme.md */,
 			);
 			sourceTree = "<group>";
 		};

@@ -88,7 +88,7 @@ height = size.height / (チェックボックスの総数 / 1列の個数)
     }
 }
 
-- (UIView *)viewInSize:(CGSize)size addingObjectsFromArray:(NSArray *)array {
+- (SSCheckBoxLayoutView *)viewInSize:(CGSize)size addingObjectsFromArray:(NSArray *)array {
 
     NSAssert(size.width > 0, @"width > 0");
     NSAssert(size.height > 0, @"height > 0");

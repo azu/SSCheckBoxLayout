@@ -32,7 +32,7 @@ typedef NS_ENUM(NSUInteger, SSCheckBoxModeType){
 - (void)makeCheckBoxFromArray:(NSArray *)array InView:(SSCheckBoxLayoutView *)view;
 
 // 配列を渡してUIViewを返すメソッド - 自動レイアウト
-- (UIView *)viewInSize:(CGSize)size addingObjectsFromArray:(NSArray *)array;
+- (SSCheckBoxLayoutView *)viewInSize:(CGSize)size addingObjectsFromArray:(NSArray *)array;
 
 
 @end

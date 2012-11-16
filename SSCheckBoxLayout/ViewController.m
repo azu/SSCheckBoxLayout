@@ -23,9 +23,9 @@
     checkBoxLayout.numberForLines = 3;
     checkBoxLayout.checkBoxMode = SingleCheckBoxType;
     checkBoxLayout.marginForCheckbox = UIEdgeInsetsMake(10, 0, 10, 0);
-    NSArray *array = @[@"asdasa", @"bdsadsa", @"こんばんわ",
+    NSArray *array = @[@"Hello", @"you", @"こんばんわ",
     @"<xss>", @"TOPIC", @"vasaaaaaaaaaaaaaadav",
-    @"asdasa", @"bdsadsa", @"vasdav",
+    @"asdasa", @"bdsa??", @"vasdav",
     @"vasdav"];
     [checkBoxLayout makeCheckBoxFromArray:array InView:self.checkboxesView];
 }
