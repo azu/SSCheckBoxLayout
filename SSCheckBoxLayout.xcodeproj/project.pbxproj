@@ -17,7 +17,7 @@
 		17B5C31246FD25B537F7624D /* cb_mono_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C4B40585AF3EB9B4CE79 /* cb_mono_off@2x.png */; };
 		17B5C31C7B6B8CC1D8BE9610 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B5CF4B9FD71F5B4F82A026 /* MainStoryboard.storyboard */; };
 		17B5C353A7A20B9DC958A744 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C9309AE78D8297EED51B /* AppDelegate.m */; };
-		17B5C3DE31FEB03B48D9DC7B /* SSCheckBoxLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CCA8784ACA74D9022788 /* SSCheckBoxLayoutView.m */; };
+		17B5C4B24567ECBCC14DF3BB /* SSCheckBoxLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C2D68A0FF5112382A568 /* SSCheckBoxLayoutView.m */; };
 		17B5C4F1F5787280CD290E91 /* UIHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CB465AA8EB49FEA1F265 /* UIHelpers.m */; };
 		17B5C553B85E8C15839040CF /* cb_green_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B5CE0FCECC3C7763B8DE03 /* cb_green_on@2x.png */; };
 		17B5C55FFEC9F0FEC58C51D9 /* cb_dark_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C79F9312F436F9205FA9 /* cb_dark_off.png */; };
@@ -27,6 +27,7 @@
 		17B5C64B31CFB40F61A186C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C8C349773DC9D8FD3B69 /* InfoPlist.strings */; };
 		17B5C6652E63687818398380 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C29CB2D5369B526BDD42 /* Foundation.framework */; };
 		17B5C82C58EA93723C8EE979 /* cb_green_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C505A0C1E4FBFB318487 /* cb_green_on.png */; };
+		17B5C85A119A384E4B1ED670 /* SSCheckBoxLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C2D68A0FF5112382A568 /* SSCheckBoxLayoutView.m */; };
 		17B5C8C23903A41CAB9F89E9 /* cb_dark_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B5CEA5E22779CBBEC3F8F2 /* cb_dark_off@2x.png */; };
 		17B5C8EE42ED912C32B4A944 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CD0F2D041B169A971115 /* CoreGraphics.framework */; };
 		17B5C93417A5A5148CFF61F5 /* SSCheckBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C0A51B4F66869FD13CD6 /* SSCheckBoxView.m */; };
@@ -47,7 +48,6 @@
 		17B5CC747262F94737EDCD29 /* cb_green_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C8DCBFAE1C682023D795 /* cb_green_off.png */; };
 		17B5CD4209B97AFA37CFF72B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B5CCCD46F7E4A5214DA382 /* Default@2x.png */; };
 		17B5CD62398D08AA95540CF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C22C0A7145B5BAB069FB /* InfoPlist.strings */; };
-		17B5CDA183488A5267BCFFAF /* SSCheckBoxLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CCA8784ACA74D9022788 /* SSCheckBoxLayoutView.m */; };
 		17B5CF5F4C2AB73FF736DBC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C29CB2D5369B526BDD42 /* Foundation.framework */; };
 		736B330A1655DD3F00E17DC6 /* UIHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CB465AA8EB49FEA1F265 /* UIHelpers.m */; };
 		736B330C1655DD4300E17DC6 /* SSCheckBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C0A51B4F66869FD13CD6 /* SSCheckBoxView.m */; };
@@ -93,10 +93,10 @@
 		17B5C1554444EECE741AC97F /* cb_box_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_box_off@2x.png"; sourceTree = "<group>"; };
 		17B5C22B6B7DC5CDBD6499FA /* cb_box_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_box_on.png; sourceTree = "<group>"; };
 		17B5C29CB2D5369B526BDD42 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17B5C2D68A0FF5112382A568 /* SSCheckBoxLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCheckBoxLayoutView.m; sourceTree = "<group>"; };
 		17B5C3C4B8AF2AB5BADF805C /* cb_green_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_green_off@2x.png"; sourceTree = "<group>"; };
 		17B5C410ABA5685BA6E42A56 /* SSCheckBoxLayoutTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSCheckBoxLayoutTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B5C44A9F308A2A35C8F7B5 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		17B5C455131F1180AF46A083 /* SSCheckBoxLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCheckBoxLayoutView.h; sourceTree = "<group>"; };
 		17B5C45FD77412322046DF32 /* SSCheckBoxLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSCheckBoxLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B5C48EF8C9CB1F524DF2DA /* cb_mono_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_mono_on.png; sourceTree = "<group>"; };
 		17B5C4B40585AF3EB9B4CE79 /* cb_mono_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_mono_off@2x.png"; sourceTree = "<group>"; };
@@ -105,6 +105,7 @@
 		17B5C5EF226C360662D2871A /* SenTestingKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		17B5C611FCEFE76E185F8971 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		17B5C6178E18C84A498388D5 /* cb_glossy_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_glossy_on@2x.png"; sourceTree = "<group>"; };
+		17B5C696579669A94D1B388D /* SSCheckBoxLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCheckBoxLayoutView.h; sourceTree = "<group>"; };
 		17B5C79F9312F436F9205FA9 /* cb_dark_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_dark_off.png; sourceTree = "<group>"; };
 		17B5C8890D7B8487784A276C /* cb_box_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_box_on@2x.png"; sourceTree = "<group>"; };
 		17B5C890F51E110CEC795B0D /* SSCheckBoxLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCheckBoxLayout.m; sourceTree = "<group>"; };
@@ -127,7 +128,6 @@
 		17B5CC416DFA8CB4821D9465 /* SSCheckBoxLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSCheckBoxLayout-Prefix.pch"; sourceTree = "<group>"; };
 		17B5CC6D82A8794F0DAF32BD /* SSCheckBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCheckBoxView.h; sourceTree = "<group>"; };
 		17B5CC75C0313715031F8E60 /* cb_dark_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_dark_on@2x.png"; sourceTree = "<group>"; };
-		17B5CCA8784ACA74D9022788 /* SSCheckBoxLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCheckBoxLayoutView.m; sourceTree = "<group>"; };
 		17B5CCCD46F7E4A5214DA382 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		17B5CD0F2D041B169A971115 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		17B5CD35F72F29D24E8C4589 /* SSCheckBoxLayoutSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCheckBoxLayoutSpec.m; sourceTree = "<group>"; };
@@ -284,8 +284,8 @@
 			children = (
 				17B5C890F51E110CEC795B0D /* SSCheckBoxLayout.m */,
 				17B5C9964BFF101249BC6C03 /* SSCheckBoxLayout.h */,
-				17B5CCA8784ACA74D9022788 /* SSCheckBoxLayoutView.m */,
-				17B5C455131F1180AF46A083 /* SSCheckBoxLayoutView.h */,
+				17B5C2D68A0FF5112382A568 /* SSCheckBoxLayoutView.m */,
+				17B5C696579669A94D1B388D /* SSCheckBoxLayoutView.h */,
 			);
 			path = SSCheckBoxManager;
 			sourceTree = "<group>";
@@ -473,7 +473,7 @@
 				17B5C4F1F5787280CD290E91 /* UIHelpers.m in Sources */,
 				17B5C93417A5A5148CFF61F5 /* SSCheckBoxView.m in Sources */,
 				17B5C9CC64CADB81E5B02F8A /* SSCheckBoxLayout.m in Sources */,
-				17B5CDA183488A5267BCFFAF /* SSCheckBoxLayoutView.m in Sources */,
+				17B5C4B24567ECBCC14DF3BB /* SSCheckBoxLayoutView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,7 +485,7 @@
 				736B330A1655DD3F00E17DC6 /* UIHelpers.m in Sources */,
 				736B330C1655DD4300E17DC6 /* SSCheckBoxView.m in Sources */,
 				736B33271655DEC000E17DC6 /* SSCheckBoxLayoutSpec.m in Sources */,
-				17B5C3DE31FEB03B48D9DC7B /* SSCheckBoxLayoutView.m in Sources */,
+				17B5C85A119A384E4B1ED670 /* SSCheckBoxLayoutView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
